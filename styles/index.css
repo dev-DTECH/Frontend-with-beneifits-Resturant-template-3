@@ -190,6 +190,7 @@ li {
 
 
 .footer {
+
     width: 100%;
     height: 12rem;
     display: flex;
@@ -199,6 +200,7 @@ li {
     color: black;
     background-color: white;
     padding: 2rem 6rem;
+
 }
 
 .scroll-to-top {
@@ -292,7 +294,7 @@ button {
     transition: background 0.15s;
 }
 i {
-    margin-right: 0.5rem;
+    /*margin-right: 0.5rem;*/
 }
 
 .form-group input[type="text"]:focus,
@@ -300,7 +302,9 @@ i {
 .form-group textarea:focus {
     border: 1px solid #222;
 }
+
 .button {
+
     float: left;
     width: 60px;
     height: 60px;
